@@ -6,6 +6,10 @@
   "scripts": {
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasterTatto/usetimer.git"
+  },
   "keywords": [
     "timer",
     "react-timer",
