@@ -1,0 +1,38 @@
+{
+  "name": "react-timer-hook-v2",
+  "version": "1.0.2",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "timer",
+    "react-timer",
+    "react timer",
+    "react-countdown",
+    "react countdown",
+    "countdown",
+    "react-timer",
+    "hook",
+    "hook-timer"
+  ],
+  "author": "https://github.com/MasterTatto",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "path": "^0.12.7",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "moment": "^2.29.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0"
+  }
+}
