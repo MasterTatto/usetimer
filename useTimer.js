@@ -13,7 +13,7 @@ export const useTimer = (initial_ms) => {
         if (!initial_ms) return
 
         let interval = window.setInterval(() => {
-            if (moment.duration(counter)?.asMilliseconds() <= 0) {
+            if (moment.duration(counter)?.asMilliseconds() <= 1000) {
                 window.clearInterval(interval)
                 setIsFinish(true)
                 setState({counter: 0})
